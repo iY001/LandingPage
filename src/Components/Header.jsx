@@ -18,7 +18,7 @@ function Header() {
         </section>
         
     </div>
-    <div className='flex justify-center bg-main'>
+    <div className='flex justify-center py-4 bg-main'>
             <div className='bg-tint1 rounded-full p-1 mx-1'></div>
             <div className='bg-tint3 rounded-full p-1 mx-1'></div>
             <div className='bg-tint4 rounded-full p-1 mx-1'></div>

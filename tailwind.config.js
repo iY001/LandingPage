@@ -7,6 +7,8 @@ module.exports = {
         main : '#F5F7FA',
         primary: '#28CB8B',
         d_grey: '#4D4D4D',
+        l_grey: '#89939E',
+        n_silver: '#F5F7FA',
         secondary: '#263238',
         info : "#2194f3",
         shade1:'#43A046',

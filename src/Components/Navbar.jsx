@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/Logo.png'
+import logo from '../assets/mainLogo.png'
 import Sidebar from '../assets/textalign-justifycenter.png'
 function Navbar() {
   const [open,setOpen] = useState()
@@ -33,9 +33,9 @@ function Navbar() {
             <span className='md:hidden absolute right-6 mt-3'>
               <button onClick={()=>setOpen(!open)} className=' cursor-pointer'><img src={Sidebar} alt="" /></button>
             </span>
-        <section className='hidden md:block'>
+        <section className='hidden md:flex flex-row'>
           <button className='mr-5 text-sm text-shade1'>Login</button>
-          <button className='px-5 py-2 bg-shade1 hover:bg-shade2 duration-200 text-white text-sm rounded-md focus:ring focus:ring-tint1'>Sign Up</button>
+          <button className='px-5 py-2 md:w-24 bg-shade1 hover:bg-shade2 duration-200 text-white text-sm rounded-md focus:ring focus:ring-tint1 '>Sign Up</button>
         </section>
         </div>
     </>
