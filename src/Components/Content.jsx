@@ -128,7 +128,7 @@ function Content() {
                     {
                         cIcons.map((item) => {
                             return (
-                                <div className='w-72 px-4 py-6 md:mx-32 text-center rounded-lg shadow-md'>
+                                <div className='w-72 px-4 py-6 md:mx-32 text-center rounded-lg shadow-md mb-8'>
                                     <img src={item.icon} className='mx-auto' alt="logo" />
                                     <h1 className='text-3xl font-bold text-d_grey py-4'>{item.header}</h1>
                                     <p className='text-sm text-d_grey'>{item.text}</p>
